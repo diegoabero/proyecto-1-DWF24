@@ -9,8 +9,8 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 4fr 4fr 2fr 3fr;
     grid-template-areas: 
-    "header header"
-    "section section"
+    "titulo titulo"
+    "sección1 sección1"
     "section section"
     "section section"
     "footer footer";
@@ -19,4 +19,4 @@ body {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 300;
     
-}  
+} 
