@@ -11,8 +11,8 @@
     grid-template-areas: 
     "titulo titulo"
     "sección1 sección1"
-    "section section"
-    "section section"
+    "sección2 sección2"
+    "sección3 sección3"
     "footer footer";
    
     height: 100vh;
@@ -30,4 +30,4 @@
 .sección1{
     display: grid;
     grid-area: sección1;
-}
+} 
