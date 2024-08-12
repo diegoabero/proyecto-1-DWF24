@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+/*COLORES*/
+
+:root {
+--Very-Dark-Blue: hsl(243, 87%, 12%);
+--Desaturated-Blue: hsl(238, 22%, 44%);
+--Bright-Blue: hsl(224, 93%, 58%);
+--Moderate-Cyan: hsl(170, 45%, 43%);
+--Light-Grayish-Blue: hsl(240, 75%, 98%);
+--Light-Gray: hsl(0, 0%, 75%);
+
+}
+
+
 .body {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -31,3 +44,77 @@
     display: grid;
     grid-area: sección1;
 } 
+
+.sección2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    background-color: var(--Light-Grayish-Blue);
+    align-items: center;
+    gap: 60px;
+    padding: 40px;
+    
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.link {
+    color: var(--Moderate-Cyan);
+    font-size: 16px;
+    margin-bottom: 40px;
+    display: inline-block;
+    
+}
+
+.conteiner-cita {
+    background-color: white;
+    width: 25em;
+    height: 15em;
+    padding: 20px;
+    border-radius: 10px;
+    /*box-shadow: 1px 1px 1px 1px;*/
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.cita {
+    padding: 5px;
+
+}
+
+.comillas {
+    padding: 5px;
+}
+
+.Kyle-Pic {
+    width: 40px;
+    border-radius: 40px;
+
+}
+
+.Kyle {
+    font-size: 1rem;
+    text-align: right;
+
+}
+
+
+.br {
+    background-color: var(--Light-Grayish-Blue);
+}
+
+.contenido {
+    max-width: 500px;
+    
+    
+}
+
+.Ilustración {
+    
+    width: 100%;
+    height: auto;
+}
