@@ -43,6 +43,40 @@
     padding: 40px; */
     
 }
+.section-3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    background-color: var(--Desaturated-Blue);
+    color: var(--Light-Grayish-Blue);
+    height: 15em;
+    padding: 70px;
+}
+.sub-container-s3-c1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+}
+input {
+    border: none;
+    padding: 5px 80px;
+    font-size: 1rem;
+  }
+
+  button{
+
+    background-color: var(--Bright-Blue);
+    color: var(--Light-Grayish-Blue);
+    font-weight: bold;
+    height: 5rem;
+    padding: 5px 80px;
+  }
+   
+   
+  
+
+
 
 h1 {
     font-size: 25px;
@@ -130,4 +164,4 @@ body {
     grid-area: sub-container-s2-c1;
     display: grid;
 }
-}
+ } 
