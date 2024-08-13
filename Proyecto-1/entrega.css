@@ -16,44 +16,31 @@
 
 }
 
-
 .body {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 4fr 4fr 2fr 3fr;
-    grid-template-areas: 
-    "titulo titulo"
-    "sección1 sección1"
-    "sección2 sección2"
-    "sección3 sección3"
-    "footer footer";
-   
-    height: 100vh;
+    /* height: 100vh; */
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 300;
     
 } 
-.titulo{
+
+.title {
     display: grid;
     grid-area: titulo;
     position: relative;
-    left: 1000px;
-    top: 10px;
+    top: 10px; */
 }
-.sección1{
+.section-1 {
     display: grid;
     grid-area: sección1;
 } 
 
-.sección2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.section-2 {    
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     background-color: var(--Light-Grayish-Blue);
     align-items: center;
-    gap: 60px;
-    padding: 40px;
+    /* gap: 60px;
+    padding: 40px; */
     
 }
 
@@ -69,13 +56,12 @@ h1 {
     
 }
 
-.conteiner-cita {
+.sub-container-s2-c2 {
     background-color: white;
     width: 25em;
     height: 15em;
     padding: 20px;
     border-radius: 10px;
-    /*box-shadow: 1px 1px 1px 1px;*/
     justify-content: center;
     gap: 10px;
     
@@ -102,19 +88,46 @@ h1 {
 
 }
 
-
-.br {
-    background-color: var(--Light-Grayish-Blue);
-}
-
 .contenido {
     max-width: 500px;
     
     
 }
 
-.Ilustración {
+.ilustration {
     
     width: 100%;
     height: auto;
+}
+
+@media screen and (min-width: 375px) {
+
+.section-2 {   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "sub-container-s2-c1 sub-container-s2-c3"
+    "sub-container-s2-c2 sub-container-s2-c3";
+}
+
+body {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sub-container-s2-c1 {
+    grid-area: sub-container-s2-c1;
+    display:grid;
+}
+.sub-container-s2-c2 {
+    grid-area: sub-container-s2-c1;
+    display: grid;
+}
+.sub-container-s2-c3 {
+    grid-area: sub-container-s2-c1;
+    display: grid;
+}
 }
