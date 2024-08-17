@@ -20,6 +20,10 @@
     /* height: 100vh; */
     font-weight: 300;
     
+}
+.logo img{
+    position: relative;
+    left: 40px;
 } 
 .title {
     display: grid;
