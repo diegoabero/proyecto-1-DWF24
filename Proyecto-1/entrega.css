@@ -21,15 +21,39 @@
     font-weight: 300;
     
 }
-.logo img{
-    position: relative;
-    left: 40px;
-} 
-.title {
+ 
+/*.title {
     display: grid;
     grid-area: titulo;
     position: relative;
+    right: 1px;
     top: 10px; 
+}*/ 
+.title{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 10px;
+}
+
+
+/*.logo {
+    position: relative;
+    left: 10px;
+}*/
+.logo img{
+    min-height: 50px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-self: end;
+    gap: 10px;
+    margin-right: 70px;
+}
+.buttons button{
+    border: none;
+    padding: 10px 20px;
 }
 .section-1 {
         background-color: var(--Light-Grayish-Blue);
