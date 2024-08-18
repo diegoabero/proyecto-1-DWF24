@@ -221,7 +221,9 @@ footer span {
     border-width: 1px;
     font-family: "Raleway", system-ui;;
 }
-
+.column4 img {
+    width:15px;
+}
 @media screen and (min-width: 375px) {
     .nav-bar {
         max-width: none;
