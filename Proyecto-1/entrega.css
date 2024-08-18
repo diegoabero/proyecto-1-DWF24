@@ -17,18 +17,11 @@
 }
 
 .body {
-    /* height: 100vh; */
     font-weight: 300;
     
 }
  
-/*.title {
-    display: grid;
-    grid-area: titulo;
-    position: relative;
-    right: 1px;
-    top: 10px; 
-}*/ 
+
 .title{
     display: grid;
     grid-template-columns: auto 1fr;
@@ -37,12 +30,10 @@
 }
 
 
-/*.logo {
-    position: relative;
-    left: 10px;
-}*/
+
 .logo img{
-    min-height: 50px;
+    
+    width: 95%;
 }
 .buttons {
     display: grid;
@@ -56,10 +47,12 @@
     padding: 10px 20px;
 }
 .section-1 {
+        padding: 20px;
         background-color: white;
         align-items: center;
 } 
 .section-2 {    
+    padding: 20px;
     background-color: var(--Light-Grayish-Blue);
     align-items: center;
     
@@ -67,11 +60,11 @@
 .section-3{
     background-color: var(--Desaturated-Blue);
     color: var(--Light-Grayish-Blue);
-    padding: 70px;
+    padding: 20px;
 }
 input {
     border: none;
-    padding: 5px 80px;
+    padding: 5px;
     font-size: 1rem;
   }
   button{
@@ -81,9 +74,27 @@ input {
     height: 2.2rem;
     padding: 5px 80px;
   }
+
+  .buttons-header {
+    background-color: white;
+    color: black;
+    font-weight: 80;
+
+  }
+
 h1 {
     font-size: 25px;
+    padding: 10px;
 }
+
+p {
+    padding: 10px;
+}
+
+a {
+    padding: 10px;
+}
+
 .link {
     color: var(--Moderate-Cyan);
     font-size: 16px;
@@ -126,8 +137,30 @@ h1 {
     width: 100%;
 }
 
+.email-box  {
+
+    margin: 5px;
+    color: #D3D3D3;
+}
+
+.email-submit {
+    margin: 5px;
+}
 
 @media screen and (min-width: 375px) {
+
+.email-submit {
+        width: 100px;
+        margin: 5px;
+    }
+
+.email-box  {
+        display: block;
+        width: 300px;
+        margin: 5px;
+        color: #D3D3D3;
+
+          }
 
 body {
         margin: 0 auto;
@@ -136,6 +169,7 @@ body {
     }
 
 .section-1 {
+    padding: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -143,7 +177,8 @@ body {
     "sub-container-s1-c2 sub-container-s1-c1";
 }
 
-.section-2 {   
+.section-2 {  
+    padding: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -153,6 +188,7 @@ body {
 }
 
 .section-3 {
+    padding: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
