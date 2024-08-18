@@ -356,4 +356,21 @@ footer span {
         padding: 10px 20px;
     }
 
+    .footer-s1{
+
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "image" 
+        "text";
+    }
+    .sub-container-footer-s1{
+        grid-area: image;
+    }
+    .sub-container-footer-s2{
+        grid-area: text;
+    }
+
+
 }
