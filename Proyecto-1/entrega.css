@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 80;
 }
 
 /*COLORES*/
@@ -15,12 +16,6 @@
 --Light-Grayish-Blue: hsl(240, 75%, 98%);
 --Light-Gray: hsl(0, 0%, 75%);
 }
-
-.body {
-    font-weight: 300;
-    
-}
- 
 
 .title{
     display: grid;
@@ -63,28 +58,32 @@
     padding: 20px;
 }
 input {
-    border: none;
     padding: 5px;
     font-size: 1rem;
+    margin: 5px;
+    color: #D3D3D3;
+    border-radius: 3px;
+    border-color: #D3D3D3;
   }
-  button{
+
+button {
+    border: none;
     background-color: var(--Bright-Blue);
     color: var(--Light-Grayish-Blue);
-    font-weight: bold;
     height: 2.2rem;
-    padding: 5px 80px;
+    padding: 5px;
+    border-radius: 3px;
   }
 
   .buttons-header {
     background-color: white;
     color: black;
-    font-weight: 80;
-
   }
 
 h1 {
     font-size: 25px;
     padding: 10px;
+    font-weight: bold;
 }
 
 p {
@@ -137,20 +136,10 @@ a {
     width: 100%;
 }
 
-.email-box  {
-
-    margin: 5px;
-    color: #D3D3D3;
-}
-
-.email-submit {
-    margin: 5px;
-}
-
 @media screen and (min-width: 375px) {
 
 .email-submit {
-        width: 100px;
+        width: 150px;
         margin: 5px;
     }
 
