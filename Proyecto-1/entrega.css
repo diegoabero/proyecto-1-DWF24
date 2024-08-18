@@ -292,13 +292,12 @@ footer span {
             "sub-container-s3-c1 sub-container-s3-c2"
     }
 
-    footer {
-        padding: 70px;
+    .footer-l2 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto;
         grid-template-areas:
-            "footer-s1 footer-s2 footer-s3"
+            "footer-s1 footer-s2 footer-s3 footer-s4"
     }
 
     .sub-container-s1-c1 {
@@ -330,16 +329,20 @@ footer span {
         grid-area: sub-container-s3-c2;
     }
 
-    .footer-s1 {
+    .column1 {
         grid-area: footer-s1;
     }
 
-    .footer-s2 {
+    .column2 {
         grid-area: footer-s2;
     }
 
-    .footer-s3 {
+    .column3 {
         grid-area: footer-s3;
+    }
+
+        .column4 {
+        grid-area: footer-s4;
     }
 
     #image-curve-desktop {
@@ -356,19 +359,20 @@ footer span {
         padding: 10px 20px;
     }
 
-    .footer-s1{
+    footer {
 
         display: grid;
+        padding: 70px;
         grid-template-columns: auto;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto;
         grid-template-areas: 
         "image" 
         "text";
     }
-    .sub-container-footer-s1{
+    .footer-l1{
         grid-area: image;
     }
-    .sub-container-footer-s2{
+    .footer-l2{
         grid-area: text;
     }
 
